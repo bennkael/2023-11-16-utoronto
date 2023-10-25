@@ -167,7 +167,7 @@ This block displays the date and links to Google Calendar.
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
-{% endcomment %}
+
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
@@ -179,7 +179,7 @@ Modify the block below if there are any special requirements.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
-
+{% endcomment %}
 {% comment %}
 ACCESSIBILITY
 
